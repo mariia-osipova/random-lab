@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import math, re
 
-src = "cvs-test/test-data-set.csv"
-dst = "cvs-test/reform-data.csv"
+src = "../apps/web/public/data/cvs-test/test-data-set.csv"
+dst = "../apps/web/public/data/cvs-test/reform-data.csv"
 
 wide = pd.read_csv(src)
 
